@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "nodemon": "nodemon --expose-gc ./bin/www",
-    "dev-win": "set DEBUG=express:* & nodemon  --expose-gc./bin/www",
+    "dev-win": "set DEBUG=express:* & nodemon  --expose-gc ./bin/www",
     "dev": "DEBUG=express:* nodemon --expose-gc ./bin/www",
     "start": "node --expose-gc ./bin/www",
     "test": "jest --forceExit --detectOpenHandles --runInBand"
@@ -28,7 +28,7 @@
     "exceljs": "^4.3.0",
     "express": "~4.17.1",
     "express-ejs-layouts": "^2.5.0",
-    "express-fileupload": "^1.1.6",
+    "express-fileupload": "^1.4.0",
     "express-session": "^1.17.0",
     "express-subdomain": "^1.0.5",
     "express-winston": "^3.0.1",
@@ -37,6 +37,7 @@
     "hashids": "^1.2.2",
     "http-errors": "~1.6.2",
     "jest": "^27.0.4",
+    "joi": "^17.9.2",
     "json5": "^2.1.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.12",

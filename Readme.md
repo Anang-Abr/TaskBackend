@@ -6,3 +6,5 @@
 - Kemudian coba hit server dari cmd ```curl --location 'http://localhost:10000/api/v1/test'```
 
 
+## Fitur-fitur
+- Route task sudah dilindungi dengan middleware yang menggunakan jwt
